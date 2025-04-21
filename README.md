@@ -36,13 +36,7 @@ This is a Dropwizard-based REST API that accepts survey data, logs it, and store
 
 ### ▶️ Run the Application
 
-```bash
-docker-compose up --build
-
-
-### ✨ What Happens After You Run the App
-
-When you run:
+When you run with below command:
 
 ```bash
 docker-compose up --build
@@ -83,6 +77,13 @@ Once the services are running:
 - Select **Table** or **Bar Chart** as view
 
 This shows average survey score per gender 🚀
+
+#### 4. Result
+
+![Average Score per Gender](img/survey-visualize.png)
+
+Now every new survey POST automatically updates the chart in real time.
+
 
 ---
 
