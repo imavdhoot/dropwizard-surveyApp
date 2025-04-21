@@ -78,7 +78,7 @@ Once the services are running:
 
 This shows average survey score per gender 🚀
 
-#### 4. Result
+#### 4. Result of Visualization
 
 ![Average Score per Gender](img/survey-visualize.png)
 
