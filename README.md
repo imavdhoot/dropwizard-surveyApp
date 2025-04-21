@@ -113,7 +113,7 @@ This shuts down containers and removes volumes (including Elasticsearch data).
 ### 📁 Folder Structure
 
 ```bash
-survey-management-api/
+dropwizard-surveyApp/
 ├── src/                      # Java source code (Dropwizard app)
 ├── swagger-ui/              # Swagger UI static files
 ├── config.yml               # Dropwizard config
