@@ -53,6 +53,17 @@ You get:
 | Swagger UI     | http://localhost:8080/swagger-ui       | Interactive API testing              |
 
 ---
+### 🧪 Testing the API
+
+Send a sample survey record with a single‑line `curl`:
+
+```bash
+curl -X POST http://localhost:8080/surveys \
+     -H "Content-Type: application/json" \
+     -d '{"age":29,"gender":"female","region":"APAC","surveyID":"survey-001","score":4}'
+```
+Before proceeding to Kibana, you should send multiple requests with diffrent genders and scores so that you can see visualization better.
+---
 
 ### 📊 Kibana Visualization Setup
 
